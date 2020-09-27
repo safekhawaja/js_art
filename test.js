@@ -1,11 +1,12 @@
-var canvas = document.querySelector('canvas');
-var context = canvas.getContext('2d');
-
-var size = window.innerWidth;
-var dpr = window.devicePixelRatio;
-canvas.width = size * dpr;
-canvas.height = size * dpr;
-context.scale(dpr, dpr);
-
-context.lineCap = 'square';
-context.lineWidth = 2;
+function setup() {
+    createCanvas(400, 400);
+  }
+  
+  function draw() {
+    if (mouseIsPressed) {
+        fill(0);
+      } else {
+        fill(255);
+      }
+      ellipse(mouseX, mouseY, 80, 80);
+  }
