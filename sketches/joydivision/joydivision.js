@@ -1,7 +1,12 @@
 var x = 0;
-//var theta = random(360); 
-//var period = (1280-300);
-//var dx;
+var y = 40;
+var dx;
+var wave = {
+    theta : random(360),
+    period : (1280-300),
+} 
+
+//wave.theta
 
 function setup() {
     createCanvas(1080, 720);
