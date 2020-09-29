@@ -4,7 +4,7 @@ function setup() {
   }
   
   function draw() {
-    if (mouseIsPressed) {
+    if (mouseIsPressed || (mouseX > height / 2)) {
       y_filling = random(0, 255);
       fill(y_filling);
       } else {
