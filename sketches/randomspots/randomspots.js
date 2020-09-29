@@ -1,3 +1,4 @@
+//Thanks Dan Shiffman for the tutorial!
 var spot = {
     x: width,
     y: height
@@ -20,7 +21,7 @@ var spot = {
   
     spot.x = random(0, width);
     spot.y = random(0, height);
-    
+
     noStroke();
     fill(col.r, col.g, col.b, 100);
     ellipse(spot.x, spot.y, 24, 24);

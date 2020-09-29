@@ -5,13 +5,10 @@ function preload() {
 
 function setup() {
     createCanvas(1080, 720);
+    extraCanvas = createGraphics(1080, 720);
     background(255);
   }
-  
-  function draw() {
-    variableWoah(mouseX, mouseY, pmouseX, pmouseY);
-  }
-  
+ 
   function variableWoah(x, y, px, py) {
     let speed = abs(x - px) + abs(y - py);
     textFont(font, speed*10);
@@ -23,3 +20,13 @@ function setup() {
       text('woah', x, y)
     }
   }
+
+  function draw() {
+    noStroke();
+    colorspeed = map(speed, 0, 100, 50, 200);
+    fill(colorspeed);
+    extraCanvas.ellipse(x, y, 24, 24);
+    
+    variableWoah(mouseX, mouseY, pmouseX, pmouseY);
+  }
+  
