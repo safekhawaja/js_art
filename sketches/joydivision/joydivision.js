@@ -9,8 +9,9 @@ function setup() {
 }
 
 function draw() {
-    for (var y = 40; y < height; y +=20)
+    for (var y = 40; y < height; y +=20) {
         strokeWeight(5);
         fill(0);
         line(300, y, 1080, y);
+    }
 }
