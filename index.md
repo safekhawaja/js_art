@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+# p5.js Sketches
 
-You can use the [editor on GitHub](https://github.com/safekhawaja/js_art/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+A few sketches from self-teaching p5.js through some tutorials by [@shiffman](https://github.com/shiffman) and short projects. Mostly my own code but I've mentioned when I've built on tutorials. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
+## What You'll Find:
 
 - Bulleted
 - List
+- Of
+- Sketch 
+- Functions
 
-1. Numbered
-2. List
+<!---[Link](url) and ![Image](src)--->
 
-**Bold** and _Italic_ and `Code` text
+## Prerequisites
 
-[Link](url) and ![Image](src)
-```
+Before you fork these out and try it out yourself, ensure you have met the following requirements:
+* You have installed the latest version of p5.js, and either a good text editor, IDE or use the p5.js web editor. 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Contact
 
-### Jekyll Themes
+If you want to contact me you can reach me at <saifnk@wharton.upenn.edu>.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/safekhawaja/js_art/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## License
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+This project uses the following license: [<MIT License>](<https://choosealicense.com/licenses/mit/>).
