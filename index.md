@@ -27,4 +27,4 @@ If you want to contact me you can reach me at <saifnk@wharton.upenn.edu>.
 
 ### License
 
-This project uses the following license: [<MIT License>](<https://choosealicense.com/licenses/mit/>).
+This project uses the following license: [MIT License](<https://choosealicense.com/licenses/mit/>).
