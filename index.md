@@ -2,6 +2,8 @@
 
 A few sketches from self-teaching p5.js through some tutorials by [@shiffman](https://github.com/shiffman) and short projects. Mostly my own code but I've mentioned when I've built on tutorials. 
 
+---
+
 ### What You'll Find:
 
 - Bulleted
@@ -16,6 +18,8 @@ A few sketches from self-teaching p5.js through some tutorials by [@shiffman](ht
 
 Before you fork these out and try it out yourself, ensure you have met the following requirements:
 * You have installed the latest version of p5.js, and either a good text editor, IDE or use the p5.js web editor. 
+
+---
 
 ### Contact
 
