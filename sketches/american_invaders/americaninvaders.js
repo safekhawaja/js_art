@@ -1,6 +1,43 @@
-// https://www.coursescript.com/notes/interactivecomputing/images/
-// https://www.geeksforgeeks.org/p5-js-loadimage-function/
-var x = 1;
+var ship;
+var bush = [];
+var shoe;
+
+function setup() {
+  createCanvas(600,400);
+  ship = new Ship();
+  shoe = new Shoe(width/2, height/2);
+  for (var i = 0; i<5; i++) {
+    bush[i] = new Bush(i*80 + 80, 20);
+  }
+}
+
+function draw() {
+  background(51);
+  ship.show();
+  shoe.show();
+  for (var i = 0; i< bush.length; i++) {
+    bush[i].show;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+function keyPressed() {
+  if (keyCode == RIGHT_ARROW) {
+    ship.move(1);
+  } else if (keyCode == LEFT_ARROW) {
+    ship.move(-1);
+  }
+}
+/* var x = 1;
 var speed = 1.5;
 
 function setup() {
@@ -21,4 +58,5 @@ function draw() {
     y +=50
     x = x + speed;
      }
-}
+} 
+*/
